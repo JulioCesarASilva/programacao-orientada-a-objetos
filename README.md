@@ -93,7 +93,7 @@ ser comparadas facilmente.
 
 | Data | Conteúdo |
 | --- | --- |
-| [17/08/2026](aulas/2026-08-17/) | Condicionais, potência e estrutura `switch` |
+| [17/08/2026](aulas/2026-08-17/) | Condicionais, potência e estrutura de repetição |
 
 ## Requisitos
 
