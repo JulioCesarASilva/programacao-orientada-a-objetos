@@ -21,7 +21,7 @@ g++ main.cpp -o ../../tpm/main.bin
 
 ### Java
 
-A partir da pasta deste exercício (`02-calculo-com-potencia`), entre na pasta que contém o arquivo `Main.java`:
+A partir da pasta deste exercício (`java`), entre na pasta que contém o arquivo `Main.java`:
 
 ```bash
 javac -d ../../tmp Main.java
