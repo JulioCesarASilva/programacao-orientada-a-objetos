@@ -1,8 +1,7 @@
 # Exercício: cadastro de alunos e provas
 
 O objetivo deste exercício é estudar o código-base que cadastra alunos e suas
-notas e depois desenvolver uma versão melhorada. A melhoria ainda não foi
-feita.
+notas e depois desenvolver uma versão melhorada com uma lista de alunos.
 
 ## Organização
 
@@ -18,11 +17,18 @@ feita.
 └── versao-melhorada/
     ├── README.md
     └── cpp/
+        ├── Aluno.cpp
+        ├── Aluno.hpp
+        ├── ListaAlunos.cpp
+        ├── ListaAlunos.hpp
+        ├── Prova.cpp
+        ├── Prova.hpp
+        └── main.cpp
 ```
 
 - `codigo-base/`: contém o código original, mantido sem modificações;
-- `versao-melhorada/`: está reservada para a versão que ainda será
-  desenvolvida.
+- `versao-melhorada/`: permite adicionar, remover e listar os alunos, além de
+  salvar os dados em arquivo.
 
 O sistema de terminal recebe as notas das provas B1 e B2, calcula a média e
 informa a situação do aluno. Uma média maior que `5.0` resulta em aprovação.
@@ -37,15 +43,12 @@ informa a situação do aluno. Uma média maior que `5.0` resulta em aprovação
 O exemplo pratica encapsulamento, construtores, composição de objetos,
 separação entre interface e implementação e tratamento de exceções.
 
-## Compilação do código-base
+## Melhorias desenvolvidas
 
-A partir da pasta `01-provas`, execute:
+A versão melhorada utiliza `ListaAlunos` para guardar os alunos durante a
+execução. Pelo menu, é possível:
 
-```bash
-g++ codigo-base/cpp/main.cpp codigo-base/cpp/Aluno.cpp \
-    codigo-base/cpp/Prova.cpp -o ../tmp/provas.bin
-../tmp/provas.bin
-```
-
-O executável é salvo na pasta temporária da aula para não misturar artefatos
-de compilação com os códigos-fonte.
+- adicionar um aluno com as notas de B1 e B2;
+- remover um aluno pelo nome;
+- listar todos os alunos cadastrados;
+- salvar e carregar os dados automaticamente pelo arquivo `alunos.dat`.
