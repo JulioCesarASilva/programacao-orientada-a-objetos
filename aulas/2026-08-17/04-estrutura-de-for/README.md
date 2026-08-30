@@ -6,7 +6,7 @@ Exercício que desenha no terminal o contorno de um retângulo com 40 colunas e 
 
 ## Compilação e execução
 
-Execute os comandos a partir desta pasta:
+Execute os comandos **a partir da pasta com os codigos de suas respectivas linguagens**:
 
 ### C++
 
@@ -14,5 +14,3 @@ Execute os comandos a partir desta pasta:
 g++ main.cpp -o main.bin
 ./main.bin
 ```
-
-O arquivo `main.bin` é gerado nesta pasta, mantendo o artefato de compilação separado dos demais códigos-fonte do repositório.

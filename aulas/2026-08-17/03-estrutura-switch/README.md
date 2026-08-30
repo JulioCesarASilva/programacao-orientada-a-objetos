@@ -13,8 +13,6 @@ Execute os comandos **a partir da pasta com os codigos de suas respectivas lingu
 ### C++
 
 ```bash
-g++ main.cpp -o ../../tpm/main.bin
-../../tpm/main.bin
+g++ main.cpp -o main.bin
+./main.bin
 ```
-
-Usar a pasta `tmp` para o arquivo compilado evita misturar artefatos de compilação com os códigos-fonte do repositório.

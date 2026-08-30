@@ -15,12 +15,11 @@ A principal diferença observada é o uso de `pow` em C++ e `Math.pow` em Java.
 
 Execute os comandos **a partir da pasta com os codigos de suas respectivas linguagens**:
 
-
 ### C++
 
 ```bash
-g++ main.cpp -o ../../tpm/main.bin
-../../tpm/main.bin
+g++ main.cpp -o main.bin
+./main.bin
 ```
 
 ### Java
@@ -28,12 +27,9 @@ g++ main.cpp -o ../../tpm/main.bin
 A partir da pasta deste exercício (`02-calculo-com-potencia`), entre na pasta que contém o arquivo `Main.java`:
 
 ```bash
-javac -d ../../tmp Main.java
-java -cp ../../tmp Main
+javac -d Main.java
+java -cp Main
 ```
 
 O `javac` compila o código e salva o arquivo `Main.class` na pasta temporária.
 Em seguida, o comando `java` executa a classe `Main` usando essa pasta no *classpath*.
-
-
-Usar a pasta `tmp` para o arquivo compilado evita misturar artefatos de compilação com os códigos-fonte do repositório.
