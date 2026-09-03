@@ -95,6 +95,7 @@ ser comparadas facilmente.
 | --- | --- |
 | [17/08/2026](aulas/2026-08-17/) | Condicionais, potência e estrutura de repetição |
 | [24/08/2026](aulas/2026-08-24/) | Classes, encapsulamento, composição e tratamento de exceções |
+| [31/08/2026](aulas/2026-08-31/) | Código apresentado e exercício de cadastro de animais em C++ |
 
 ## Requisitos
 
